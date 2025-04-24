@@ -7,8 +7,8 @@ Clock {
   timeFont.family: config.Font
   dateFont.family: config.Font
   anchors {
-    margins: 10
+    topMargin: 10
     top: parent.top
-    right: parent.right
+    horizontalCenter: parent.horizontalCenter
   }
 }
